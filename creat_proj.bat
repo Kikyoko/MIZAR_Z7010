@@ -13,4 +13,4 @@ echo copy project file
 xcopy /y .\DESIGN.tcl\create_proj.tcl   ..\%folder%
 
 cd ..\"%folder%"
-D:\Xilinx\Vivado\2020.1\bin\vivado.bat -mode tcl -source create_proj.tcl
+vivado -mode tcl -source create_proj.tcl
